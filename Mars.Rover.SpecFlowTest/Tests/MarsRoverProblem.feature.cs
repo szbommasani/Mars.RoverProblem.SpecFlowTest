@@ -74,12 +74,12 @@ namespace Mars.Rover.SpecFlowTest.Tests
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("A test to move the rover as per the given scenario problem")]
-        public void ATestToMoveTheRoverAsPerTheGivenScenarioProblem()
+        [NUnit.Framework.DescriptionAttribute("A test to move the rover as per the given scenario problem 3 3 E")]
+        public void ATestToMoveTheRoverAsPerTheGivenScenarioProblem33E()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("A test to move the rover as per the given scenario problem", null, tagsOfScenario, argumentsOfScenario, featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("A test to move the rover as per the given scenario problem 3 3 E", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 13
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -94,12 +94,45 @@ this.ScenarioInitialize(scenarioInfo);
 testRunner.Given("A squad of robotic rovers are to be landed by NASA", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 15
-testRunner.When("I set the position of the Rover to \'1\' and \'2\' and facing \'N\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+testRunner.When("I set the position of the Rover to \'3\' and \'3\' and facing \'E\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 16
-testRunner.And("I move the rover \'LMLMLMLMM\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.And("I move the rover \'MMRMMRMRRM\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 17
+testRunner.Then("I validate position of the rover as \'5 1 E\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("A test to move the rover as per the given scenario problem 1 2 N")]
+        public void ATestToMoveTheRoverAsPerTheGivenScenarioProblem12N()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("A test to move the rover as per the given scenario problem 1 2 N", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 19
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 20
+testRunner.Given("A squad of robotic rovers are to be landed by NASA", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 21
+testRunner.When("I set the position of the Rover to \'1\' and \'2\' and facing \'N\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 22
+testRunner.And("I move the rover \'LMLMLMLMM\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 23
 testRunner.Then("I validate position of the rover as \'1 3 N\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

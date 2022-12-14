@@ -132,6 +132,7 @@ namespace Mars.Rover.SpecFlowTest.Step_Definitions
         {
             string outcomePosition = string.Empty;
             outcomePosition = rover.printPosition();
+            Console.WriteLine(outcomePosition);
             Assert.AreEqual(position, outcomePosition);
         }
     }

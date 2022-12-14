@@ -97,7 +97,7 @@ namespace Mars.Rover.SpecFlowTest.Helper
         }
         private void turnRight()
         {
-            this.facing = (this.facing - 1) > W ? N : this.facing - 1;
+            this.facing = (this.facing + 1) > W ? N : this.facing + 1;
         }
 
     }
