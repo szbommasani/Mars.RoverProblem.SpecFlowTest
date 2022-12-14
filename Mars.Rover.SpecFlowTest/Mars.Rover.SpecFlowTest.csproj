@@ -84,6 +84,7 @@
     <Compile Include="Step Definitions\MarsRoverProblem.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="Tests\MarsRoverProblem.feature">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

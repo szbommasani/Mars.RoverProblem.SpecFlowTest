@@ -34,6 +34,7 @@ E:\Mars.RoverProblem.SpecFlowDemoTest\Mars.Rover.SpecFlowTest\bin\Debug\nunit.en
 E:\Mars.RoverProblem.SpecFlowDemoTest\Mars.Rover.SpecFlowTest\bin\Debug\nunit.engine.core.dll
 E:\Mars.RoverProblem.SpecFlowDemoTest\Mars.Rover.SpecFlowTest\bin\Debug\testcentric.engine.metadata.dll
 E:\Mars.RoverProblem.SpecFlowDemoTest\Mars.Rover.SpecFlowTest\bin\Debug\Tests\MarsRoverProblem.feature
+E:\Mars.RoverProblem.SpecFlowDemoTest\Mars.Rover.SpecFlowTest\bin\Debug\Mars.Rover.SpecFlowTest.dll.config
 E:\Mars.RoverProblem.SpecFlowDemoTest\Mars.Rover.SpecFlowTest\bin\Debug\Mars.Rover.SpecFlowTest.dll
 E:\Mars.RoverProblem.SpecFlowDemoTest\Mars.Rover.SpecFlowTest\bin\Debug\Mars.Rover.SpecFlowTest.pdb
 E:\Mars.RoverProblem.SpecFlowDemoTest\Mars.Rover.SpecFlowTest\bin\Debug\BoDi.dll
